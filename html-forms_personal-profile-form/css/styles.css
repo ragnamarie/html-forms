@@ -2,12 +2,24 @@
   box-sizing: border-box;
 }
 
+::placeholder {
+  color: #e5430f;
+}
+
 body {
   margin: 20px auto;
   max-width: 340px;
   background-color: rgb(255, 255, 255);
   color: rgb(37, 38, 41);
   font-family: PolySans, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  font-weight: normal;
 }
 
 button {
